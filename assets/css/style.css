@@ -644,7 +644,6 @@ main {
 
 .projects-item-title {
   text-align: center;
-  margin-bottom: 15px;
 }
 
 .projects-text {
@@ -1482,8 +1481,8 @@ textarea.form-input::-webkit-resizer { display: none; }
   .projects-avatar-box img { width: 80px; }
 
   .projects-item-title {
-    margin-bottom: 10px;
-    margin-left: 95px;
+    text-align: center;
+    margin-bottom: 15px;
   }
 
   .projects-text {
