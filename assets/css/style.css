@@ -704,7 +704,12 @@ main {
   box-shadow: var(--shadow-1);
 }
 
-.projects-item-title { margin-bottom: 7px; }
+.projects-item-title {
+  margin-bottom: 7px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
 
 .projects-text {
   color: var(--light-gray);
