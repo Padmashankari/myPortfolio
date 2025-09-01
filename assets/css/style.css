@@ -645,6 +645,7 @@ main {
 .projects-item-title {
   text-align: center;
   margin: 0 auto;
+  display: block;
 }
 
 .projects-text {
