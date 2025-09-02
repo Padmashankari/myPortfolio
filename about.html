@@ -1,30 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--
+    - favicon
+    -->
     <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
-
-    <!-- Font Awesome for hamburger icon -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-
-    <!-- custom css -->
+    <!--
+    - custom css link
+    -->
     <link rel="stylesheet" href="./assets/css/style.css">
-
-    <title>Padmashankari - Personal Page</title>
 </head>
-
 <body>
     <main>
-        <!-- Menu button (only visible on mobile) -->
-        <button id="menu-toggle" class="menu-btn" aria-label="Toggle sidebar">
-            <i class="fas fa-bars"></i>
-        </button>
 
-        <!-- Sidebar -->
-        <aside class="sidebar" id="sidebar" data-sidebar>
+    <!--
+    - #SIDEBAR
+    -->
+        <aside class="sidebar" data-sidebar>
             <div class="sidebar-info">
                 <figure class="avatar-box">
                     <img src="./assets/images/Gibli_art.png" alt="Padmashankari S" width="80">
@@ -37,7 +32,6 @@
                     <h3 style="color: white;"><b>SKILLS</b></h3>
                 </div>
             </div>
-            <!-- Skill bars ... -->
             <div class="info-content">
                 <div class="sidebar-info_more">
                     <div class="separator"></div>
@@ -157,10 +151,13 @@
             </div>
             </ul>
         </aside>
-
-        <!-- Main content -->
+    <!--
+    - #main-content
+    -->
         <div class="main-content">
-            <!-- Navbar -->
+        <!--
+        - #NAVBAR
+        -->
             <nav class="navbar">
                 <ul class="navbar-list">
                     <li class="navbar-item">
@@ -170,255 +167,247 @@
                     </li>
                 </ul>
             </nav>
-
-            <!-- About section -->
-            <article class="about active" data-page="about">
+            <!--
+            - #ABOUT
+            -->
+            <article class="about  active" data-page="about">
                 <header>
                     <h2 class="h2 article-title">About me</h2>
                 </header>
                 <section class="about-text">
                     <p>
-                        Hello! I'm Padma, a DevOps Engineer with a strong passion...
+                        "Hello! I'm Padma, a DevOps Engineer with a strong passion for building scalable, reliable, and
+                        automated cloud infrastructures.
+                        My journey in technology has evolved from curiosity about how systems work to mastering tools
+                        and practices that bring development and operations together seamlessly.
+                        I specialize in creating CI/CD pipelines, managing cloud-native infrastructure, and implementing
+                        monitoring solutions that ensure performance and reliability.
+                        I believe in automation, innovation, and continuous improvement to deliver secure and
+                        cost-efficient systems that make a real impact."
                     </p>
-                    <section class="about-text">
-                        <p>
-                            "Hello! I'm Padma, a DevOps Engineer with a strong passion for building scalable, reliable,
-                            and
-                            automated cloud infrastructures.
-                            My journey in technology has evolved from curiosity about how systems work to mastering
-                            tools
-                            and practices that bring development and operations together seamlessly.
-                            I specialize in creating CI/CD pipelines, managing cloud-native infrastructure, and
-                            implementing
-                            monitoring solutions that ensure performance and reliability.
-                            I believe in automation, innovation, and continuous improvement to deliver secure and
-                            cost-efficient systems that make a real impact."
-                        </p>
-                        <p>
-                            Seeking job where I could apply my knowledge and find the solutions for real-life problems.
-                        </p>
-                    </section>
-                    <!--
+                    <p>
+                        Seeking job where I could apply my knowledge and find the solutions for real-life problems.
+                    </p>
+                </section>
+                <!--
                 - service
                 -->
-                    <section class="service">
-                        <h3 class="h3 service-title">What i'm doing</h3>
-                        <ul class="service-list">
-                            <li class="service-item">
-                                <div class="service-icon-box">
-                                    <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
-                                </div>
-                                <div class="service-content-box">
-                                    <h4 class="h4 service-item-title">DevOps Engineer</h4>
-                                    <p class="service-item-text">
-                                        Passinated Devops Engineer working at Comcast over 1.5+ yrs. Loves to implement learnings in real-life.
-                                    </p>
-                                </div>
-                            </li>
-                            <li class="service-item">
-                                <div class="service-icon-box">
-                                    <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
-                                </div>
-                                <div class="service-content-box">
-                                    <h4 class="h4 service-item-title">Web development</h4>
-                                    <p class="service-item-text">
-                                        High-quality development of sites at the professional level.
-                                    </p>
-                                </div>
-                            </li>
-                            <li class="service-item">
-                                <div class="service-icon-box">
-                                    <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
-                                </div>
-                                <div class="service-content-box">
-                                    <h4 class="h4 service-item-title">Mobile apps</h4>
-                                    <p class="service-item-text">
-                                        Professional development of applications for iOS and Android.
-                                    </p>
-                                </div>
-                            </li>
-                            <li class="service-item">
-                                <div class="service-icon-box">
-                                    <img src="./assets/images/icons8-painting-48.png" alt="camera icon" width="40">
-                                </div>
-                                <div class="service-content-box">
-                                    <h4 class="h4 service-item-title">Drawing</h4>
-                                    <p class="service-item-text">
-                                        Drawing is my passion. I draw high-quality pencil drawing images. Mandala Art gives me peace! Love water-colours.
-                                    </p>
-                                </div>
-                            </li>
-                        </ul>
-                    </section>
-                    <!-- 
+                <section class="service">
+                    <h3 class="h3 service-title">What i'm doing</h3>
+                    <ul class="service-list">
+                        <li class="service-item">
+                            <div class="service-icon-box">
+                                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+                            </div>
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">DevOps Engineer</h4>
+                                <p class="service-item-text">
+                                    Passinated Devops Engineer working at Comcast over 1.5+ yrs. Loves to implement learnings in real-life.
+                                </p>
+                            </div>
+                        </li>
+                        <li class="service-item">
+                            <div class="service-icon-box">
+                                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+                            </div>
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">Web development</h4>
+                                <p class="service-item-text">
+                                    High-quality development of sites at the professional level.
+                                </p>
+                            </div>
+                        </li>
+                        <li class="service-item">
+                            <div class="service-icon-box">
+                                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+                            </div>
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">Mobile apps</h4>
+                                <p class="service-item-text">
+                                    Professional development of applications for iOS and Android.
+                                </p>
+                            </div>
+                        </li>
+                        <li class="service-item">
+                            <div class="service-icon-box">
+                                <img src="./assets/images/icons8-painting-48.png" alt="camera icon" width="40">
+                            </div>
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">Drawing</h4>
+                                <p class="service-item-text">
+                                    Drawing is my passion. I draw high-quality pencil drawing images.
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+                <!-- 
                 - coding profile
                 -->
-                    <section class="service">
-                        <h3 class="h3 service-title">Challenge Me In...</h3>
-                        <ul class="service-list">
-                            <li class="service-item">
-                                <div class="service-icon-box">
-                                    <img src="./assets/images/icons8-level-up-your-coding-skills-and-quickly-land-a-job-24.png"
-                                        alt="leetcode icon" width="40">
+                <section class="service">
+                    <h3 class="h3 service-title">Challenge Me In...</h3>
+                    <ul class="service-list">
+                        <li class="service-item">
+                            <div class="service-icon-box">
+                                <img src="./assets/images/icons8-level-up-your-coding-skills-and-quickly-land-a-job-24.png"
+                                    alt="leetcode icon" width="40">
+                            </div>
+                            <div class="service-content-box">
+                                <a class="h4 service-item-title" href="https://leetcode.com/spadmashankari/"
+                                    value="Leetcode">Leetcode</a>
+                            </div>
+                        </li>
+                        <li class="service-item">
+                            <div class="service-icon-box">
+                                <img src="./assets/images/icons8-coding-64.png" alt="skillrack icon" width="40">
+                            </div>
+                            <div class="service-content-box">
+                                <a class="h4 service-item-title"
+                                    href="https://www.skillrack.com/faces/resume.xhtml?id=304713&key=049f227e5c8284a9dde7b8e39fe1ceb69cc7e362">Skill
+                                    Rack</a>
+                            </div>
+                        </li>
+                        <li class="service-item">
+                            <div class="service-icon-box">
+                                <img src="./assets/images/icons8-geeksforgeeks-48.png" alt="geeksforgeeks icon"
+                                    width="40">
+                            </div>
+                            <div class="service-content-box">
+                                <a class="h4 service-item-title"
+                                    href="https://auth.geeksforgeeks.org/user/spadmashankari/practice">GeeksforGeeks</a>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+                <section class="projects">
+                    <h3 class="h3 projects-title">Projects</h3>
+                    <ul class="projects-list has-scrollbar">
+                        <li class="projects-item">
+                            <div class="content-card" data-projects-item>
+                                <h4 class="h4 projects-item-title" data-projects-title>Automate PD Notification</h4>
+                                <div class="projects-text" data-projects-item>
+                                    <p>
+                                        <b> AUTOMATION | PagerDuty API | Slack API | ython(script) | ConcourseCI(CI/CD)
+                                        </b>
+                                    </p>
+                                    <br>
+                                    <p>
+                                        Automated weekly Slack alerts with a Python script that pulls on-call details
+                                        from PagerDuty and posts them to Slack via a Concourse pipeline.
+                                    </p>
                                 </div>
-                                <div class="service-content-box">
-                                    <a class="h4 service-item-title" href="https://leetcode.com/spadmashankari/"
-                                        value="Leetcode">Leetcode</a>
+                            </div>
+                        </li>
+                        <li class="projects-item">
+                            <div class="content-card" data-projects-item>
+                                <h4 class="h4 projects-item-title" data-projects-title>Bastion Host for Secure
+                                    Connection</h4>
+                                <div class="projects-text" data-projects-item>
+                                    <p>
+                                        <b> INSTANCE CREATION | AWS EC2 | ConcourseCI | Shell Script | Terraform </b>
+                                    </p>
+                                    <br>
+                                    <p>
+                                        Built a secure AWS bastion host for safe access to private instances, automated
+                                        its lifecycle with ConcourseCI pipelines, and added nightly auto-shutdown to cut
+                                        costs.
+                                    </p>
                                 </div>
-                            </li>
-                            <li class="service-item">
-                                <div class="service-icon-box">
-                                    <img src="./assets/images/icons8-coding-64.png" alt="skillrack icon" width="40">
+                            </div>
+                        </li>
+                        <li class="projects-item">
+                            <div class="content-card" data-projects-item>
+                                <h4 class="h4 projects-item-title" data-projects-title>DevOps Projects</h4>
+                                <div class="projects-text" data-projects-item>
+                                    <p>
+                                        <b> ELK | AWS | Grafana | Prometheus | Vector </b>
+                                    </p>
+                                    <br>
+                                    <p>
+                                    As a Platform Engineer, I've automated repeating works such as on-call person
+                                    notification, unattached EBS volume deletion etc.
+                                    Majorly contributed to monitoring and alerting part such as dashboard creation and
+                                    updation to track resources, pushed EKS logs
+                                    to ELK via vector (logging).
+                                    </p>
                                 </div>
-                                <div class="service-content-box">
-                                    <a class="h4 service-item-title"
-                                        href="https://www.skillrack.com/faces/resume.xhtml?id=304713&key=049f227e5c8284a9dde7b8e39fe1ceb69cc7e362">Skill
-                                        Rack</a>
+                            </div>
+                        </li>
+                        <li class="projects-item">
+                            <div class="content-card" data-projects-item>
+                                <h4 class="h4 projects-item-title" data-projects-title>Admission App</h4>
+                                <div class="projects-text" data-projects-item>
+                                    <p>
+                                        <b> WEB APPLICATION | React.js | HTML | CSS | Node.js | SQL </b>
+                                    </p>
+                                    <br>
+                                    <p>
+                                        I developed an Admission App using React.js that offers a comprehensive solution
+                                        for managing
+                                        admissions processes efficiently.
+                                        The app enables seamless creation, retrieval, updating,
+                                        and deletion of admission-related data through CRUD (Create, Read, Update,
+                                        Delete) operations.
+                                    </p>
                                 </div>
-                            </li>
-                            <li class="service-item">
-                                <div class="service-icon-box">
-                                    <img src="./assets/images/icons8-geeksforgeeks-48.png" alt="geeksforgeeks icon"
-                                        width="40">
+                            </div>
+                        </li>
+                        <li class="projects-item">
+                            <div class="content-card" data-projects-item>
+                                <h4 class="h4 projects-item-title" data-projects-title>Cartoonify</h4>
+                                <div class="projects-text" data-projects-item>
+                                    <p>
+                                        <b> OpenCV | Python | Colab </b>
+                                    </p>
+                                    <br>
+                                    <p>
+                                        Implemented Python libraries including OpenCV to convert original images into
+                                        visually stunning cartoon images; optimized image processing algorithms
+                                        resulting in a 50% reduction
+                                        in processing time and improved overall user experiences.
+                                    </p>
                                 </div>
-                                <div class="service-content-box">
-                                    <a class="h4 service-item-title"
-                                        href="https://auth.geeksforgeeks.org/user/spadmashankari/practice">GeeksforGeeks</a>
+                            </div>
+                        </li>
+                        <li class="projects-item">
+                            <div class="content-card" data-projects-item>
+                                <h4 class="h4 projects-item-title" data-projects-title>StaffSpot App</h4>
+                                <div class="projects-text" data-projects-text>
+                                    <p>
+                                        <b>MOBILE APP | REACT NATIVE | HTML | CSS | NODEJS | FIREBASE </b>
+                                    </p>
+                                    <br>
+                                    <p>
+                                    I created an Employee Directory App using React Native, offering a convenient
+                                    solution for managing
+                                    employee information within an organization. The app empowers users to access,
+                                    update,
+                                    and interact with employee data seamlessly, utilizing intuitive navigation and
+                                    robust features.
+                                    </p>
                                 </div>
-                            </li>
-                        </ul>
-                    </section>
-                    <section class="projects">
-                        <h3 class="h3 projects-title">Projects</h3>
-                        <ul class="projects-list has-scrollbar">
-                            <li class="projects-item">
-                                <div class="content-card" data-projects-item>
-                                    <h4 class="h4 projects-item-title" data-projects-title>Automate PD Notification</h4>
-                                    <div class="projects-text" data-projects-item>
-                                        <p>
-                                            <b> AUTOMATION | PagerDuty API | Slack API | ython(script) |
-                                                ConcourseCI(CI/CD)
-                                            </b>
-                                        </p>
-                                        <p>
-                                            Automated weekly Slack alerts with a Python script that pulls on-call
-                                            details
-                                            from PagerDuty and posts them to Slack via a Concourse pipeline.
-                                        </p>
-                                    </div>
+                            </div>
+                        </li>
+                        <li class="projects-item">
+                            <div class="content-card" data-projects-item>
+                                <h4 class="h4 projects-item-title" data-projects-title>Healthy Life App</h4>
+                                <div class="projects-text" data-projects-text>
+                                    <p>
+                                        I have participated in CODE MAVON Hackathon conducted by Intel corpration, in
+                                        that event
+                                        I have developed a health monitoring app using OneAPI developed by Intel and got
+                                        selected for round
+                                        2.
+                                    </p>
                                 </div>
-                            </li>
-                            <li class="projects-item">
-                                <div class="content-card" data-projects-item>
-                                    <h4 class="h4 projects-item-title" data-projects-title>Bastion Host for Secure
-                                        Connection</h4>
-                                    <div class="projects-text" data-projects-item>
-                                        <p>
-                                            <b> INSTANCE CREATION | AWS EC2 | ConcourseCI | Shell Script | Terraform
-                                            </b>
-                                        </p>
-                                        <p>
-                                            Built a secure AWS bastion host for safe access to private instances,
-                                            automated
-                                            its lifecycle with ConcourseCI pipelines, and added nightly auto-shutdown to
-                                            cut
-                                            costs.
-                                        </p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="projects-item">
-                                <div class="content-card" data-projects-item>
-                                    <h4 class="h4 projects-item-title" data-projects-title>Bastion Host for Secure
-                                        Connection</h4>
-                                    <div class="projects-text" data-projects-item>
-                                        <p>
-                                            <b> AUTOMATION | Python API | Slack API | Concourse CI </b>
-                                        </p>
-                                        <p>
-                                            Built an automation to identify and report unattached EBS volumes monthly in
-                                            Slack, and delete them via pipeline after team review.
-                                        </p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="projects-item">
-                                <div class="content-card" data-projects-item>
-                                    <h4 class="h4 projects-item-title" data-projects-title>Admission App</h4>
-                                    <div class="projects-text" data-projects-item>
-                                        <p>
-                                            <b> WEB APPLICATION | React.js | HTML | CSS | Node.js | SQL </b>
-                                        </p>
-                                        <p>
-                                            I developed an Admission App using React.js that offers a comprehensive
-                                            solution
-                                            for managing
-                                            admissions processes efficiently.
-                                            The app enables seamless creation, retrieval, updating,
-                                            and deletion of admission-related data through CRUD (Create, Read, Update,
-                                            Delete) operations.
-                                        </p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="projects-item">
-                                <div class="content-card" data-projects-item>
-                                    <h4 class="h4 projects-item-title" data-projects-title>Cartoonify</h4>
-                                    <div class="projects-text" data-projects-item>
-                                        <p>
-                                            <b> OpenCV | Python | Colab </b>
-                                        </p>
-                                        <p>
-                                            Implemented Python libraries including OpenCV to convert original images
-                                            into
-                                            visually stunning cartoon images; optimized image processing algorithms
-                                            resulting in a 50% reduction
-                                            in processing time and improved overall user experiences.
-                                        </p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="projects-item">
-                                <div class="content-card" data-projects-item>
-                                    <h4 class="h4 projects-item-title" data-projects-title>StaffSpot App</h4>
-                                    <div class="projects-text" data-projects-text>
-                                        <p>
-                                            <b>MOBILE APP | REACT NATIVE | HTML | CSS | NODEJS | FIREBASE </b>
-                                        </p>
-                                        I created an Employee Directory App using React Native, offering a convenient
-                                        solution for managing
-                                        employee information within an organization. The app empowers users to access,
-                                        update,
-                                        and interact with employee data seamlessly, utilizing intuitive navigation and
-                                        robust features.
-                                        <p>
-                                        </p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="projects-item">
-                                <div class="content-card" data-projects-item>
-                                    <h4 class="h4 projects-item-title" data-projects-title>Healthy Life App</h4>
-                                    <div class="projects-text" data-projects-text>
-                                        <p>
-                                            I have participated in CODE MAVON Hackathon conducted by Intel corpration,
-                                            in
-                                            that event
-                                            I have developed a health monitoring app using OneAPI developed by Intel and
-                                            got
-                                            selected for round
-                                            2.
-                                        </p>
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
-                    </section>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
             </article>
-        </div>
-    </main>
-
-    <script>
+            </div>
+            </main>
+                <script>
         const sidebar = document.getElementById("sidebar");
         const overlay = document.getElementById("overlay");
         const toggleBtn = document.getElementById("menu-toggle");
@@ -434,5 +423,4 @@
         });
     </script>
 </body>
-
 </html>
