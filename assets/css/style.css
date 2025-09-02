@@ -268,27 +268,6 @@ main {
   overflow: hidden;
   transition: var(--transition-2);
 }
-@media (max-width: 768px) {
-  .sidebar {
-    position: fixed;
-    top: 0;
-    left: -250px; /* hide off screen */
-    width: 250px;
-    height: 100vh;
-    max-height: none; /* remove fixed 112px */
-    overflow-y: auto;
-    transition: left 0.3s ease;
-    z-index: 999;
-  }
-
-  .sidebar.active {
-    left: 0; /* slide in */
-  }
-
-  .main {
-    margin-left: 0; /* don’t push content */
-  }
-}
 
 .sidebar.active { max-height: 405px; }
 
@@ -545,7 +524,6 @@ main {
   border-radius: 12px 12px 0 0;
   box-shadow: var(--shadow-2);
   z-index: 5;
-  
 }
 
 .navbar-list {
@@ -1627,7 +1605,6 @@ textarea.form-input::-webkit-resizer { display: none; }
     position: relative;
     width: max-content;
     margin: auto;
-    height: 100%;
   }
 
 
@@ -1753,7 +1730,6 @@ textarea.form-input::-webkit-resizer { display: none; }
     min-width: 75%;
     width: 75%;
     margin: 0;
-    height: 100%;
   }
 
 
@@ -1819,81 +1795,3 @@ textarea.form-input::-webkit-resizer { display: none; }
   .timeline-text { max-width: 700px; }
 
 }
-/* --- Sidebar base styles --- */
-.sidebar {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 250px;
-  height: 100%;
-  background: #222;
-  color: white;
-  overflow-y: auto;
-  transition: left 0.3s ease-in-out;
-  z-index: 200;
-  padding: 20px;
-}
-
-/* Content area */
-.main-content {
-  margin-left: 250px;
-  padding: 20px;
-  transition: margin-left 0.3s ease-in-out;
-  height: 100%;
-}
-
-/* --- Mobile styles --- */
-@media (max-width: 768px) {
-  .sidebar {
-    left: -250px; /* hidden by default */
-  }
-  .sidebar.active {
-    left: 0; /* slide in */
-  }
-  .main-content {
-    margin-left: 0; /* no fixed space */
-    height: 100%;
-  }
-  #menu-toggle {
-    font-size: 24px;
-    background: none;
-    border: none;
-    cursor: pointer;
-    color: white;
-  }
-}
-
-/* --- Overlay (for mobile) --- */
-.overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0,0,0,0.5);
-  opacity: 0;
-  pointer-events: none;
-  transition: opacity 0.3s ease-in-out;
-  z-index: 150;
-}
-.overlay.active {
-  opacity: 1;
-  pointer-events: auto;
-}
-/* Hamburger button */
-.menu-btn {
-  position: fixed;
-  top: 15px;
-  left: 15px;
-  background: #333;
-  color: #fff;
-  border: none;
-  padding: 10px 12px;
-  border-radius: 5px;
-  cursor: pointer;
-  z-index: 1100;
-}
-.menu-btn i {
-  font-size: 20px;
-}
-
